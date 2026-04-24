@@ -140,6 +140,7 @@ export type Database = {
           is_featured: boolean
           name: string
           price: number
+          rating: number | null
           sizes: Json
           slug: string
           stock: number
@@ -155,6 +156,7 @@ export type Database = {
           is_featured?: boolean
           name: string
           price: number
+          rating?: number | null
           sizes?: Json
           slug: string
           stock?: number
@@ -170,6 +172,7 @@ export type Database = {
           is_featured?: boolean
           name?: string
           price?: number
+          rating?: number | null
           sizes?: Json
           slug?: string
           stock?: number
@@ -207,7 +210,36 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      confirm_order_payment: {
+        Args: {
+          p_order_id: string
+          p_payment_reference?: string | null
+        }
+        Returns: undefined
+      }
+      get_sales_analytics: {
+        Args: {
+          p_days?: number
+        }
+        Returns: Json
+      }
+      place_order_atomic: {
+        Args: {
+          p_email: string
+          p_full_name: string
+          p_address: string
+          p_city: string
+          p_postal_code: string
+          p_country: string
+          p_items: Json
+          p_user_id?: string | null
+        }
+        Returns: Json
+      }
+      release_expired_reservations: {
+        Args: Record<PropertyKey, never>
+        Returns: number
+      }
     }
     Enums: {
       [_ in never]: never

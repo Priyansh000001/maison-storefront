@@ -1,0 +1,201 @@
+id,user_id,email,full_name,address,city,postal_code,country,subtotal,shipping,tax,total,status,payment_method,created_at
+o0001,u030,zara.khan30@example.com,Zara Khan,142 Rose St,Lyon,73517,France,1916.28,0,344.93,2261.21,delivered,upi,2025-07-12T07:00:00
+o0002,u018,aanya.patel18@example.com,Aanya Patel,170 Rose St,New York,71069,USA,1529.5,0,275.31,1804.81,paid,card,2025-04-17T13:00:00
+o0003,u014,matthew.rao14@example.com,Matthew Rao,250 Park St,Mumbai,45774,India,3031.14,0,545.61,3576.75,paid,cod,2025-08-18T07:00:00
+o0004,u002,vivaan.singh2@example.com,Vivaan Singh,94 Main St,London,44099,UK,2412.07,0,434.17,2846.24,paid,paypal,2025-08-10T14:00:00
+o0005,u014,matthew.rao14@example.com,Matthew Rao,127 Park St,Mumbai,12671,India,2857.91,0,514.42,3372.33,shipped,upi,2025-01-11T00:00:00
+o0006,u016,sophia.garcia16@example.com,Sophia Garcia,59 Park St,Milan,50768,Italy,723.54,0,130.24,853.78,paid,card,2025-02-12T19:00:00
+o0007,u020,logan.khan20@example.com,Logan Khan,190 Main St,London,76317,UK,2968.26,0,534.29,3502.55,delivered,paypal,2025-05-17T13:00:00
+o0008,u001,liam.johnson1@example.com,Liam Johnson,248 Hill St,Paris,67091,France,3022.44,0,544.04,3566.48,pending,paypal,2025-07-26T17:00:00
+o0009,u021,sophia.singh21@example.com,Sophia Singh,167 Park St,Lyon,73904,France,1033.11,0,185.96,1219.07,paid,paypal,2025-01-08T15:00:00
+o0010,u017,arjun.brown17@example.com,Arjun Brown,252 Hill St,Milan,12260,Italy,1043.2,0,187.78,1230.98,paid,paypal,2025-05-02T20:00:00
+o0011,u015,ella.garcia15@example.com,Ella Garcia,119 Main St,London,35242,UK,2892.33,0,520.62,3412.95,paid,card,2025-03-20T08:00:00
+o0012,u035,charlotte.anderson35@example.com,Charlotte Anderson,52 Park St,Paris,48829,France,1288.65,0,231.96,1520.61,paid,paypal,2025-06-02T09:00:00
+o0013,u012,evelyn.brown12@example.com,Evelyn Brown,294 Lake St,Madrid,71524,Spain,1989.79,0,358.16,2347.95,shipped,cod,2025-08-12T00:00:00
+o0014,u022,aditya.garcia22@example.com,Aditya Garcia,28 Park St,London,29555,UK,987.26,0,177.71,1164.97,shipped,paypal,2025-05-28T20:00:00
+o0015,u006,lucas.garcia6@example.com,Lucas Garcia,227 Lake St,Paris,87139,France,638.84,0,114.99,753.83,paid,paypal,2025-04-08T14:00:00
+o0016,u037,rohan.sharma37@example.com,Rohan Sharma,136 Main St,Delhi,30585,India,437.82,0,78.81,516.63,paid,upi,2025-06-10T06:00:00
+o0017,u036,isabella.davis36@example.com,Isabella Davis,241 Lake St,New York,14278,USA,120.27,12,21.65,153.92,paid,paypal,2025-06-26T19:00:00
+o0018,u019,aiden.martinez19@example.com,Aiden Martinez,85 Lake St,Paris,87993,France,2663.66,0,479.46,3143.12,pending,paypal,2025-01-19T01:00:00
+o0019,u029,ishaan.wilson29@example.com,Ishaan Wilson,257 Rose St,Berlin,74722,Germany,1302.09,0,234.38,1536.47,paid,card,2025-04-14T08:00:00
+o0020,u039,aiden.miller39@example.com,Aiden Miller,47 Park St,Mumbai,98381,India,321.21,0,57.82,379.03,shipped,card,2025-03-06T00:00:00
+o0021,u018,aanya.patel18@example.com,Aanya Patel,93 Rose St,New York,67132,USA,292.28,0,52.61,344.89,delivered,cod,2025-04-24T08:00:00
+o0022,u006,lucas.garcia6@example.com,Lucas Garcia,130 Lake St,Paris,25194,France,2790.14,0,502.23,3292.37,cancelled,cod,2025-01-23T10:00:00
+o0023,u033,rohan.sharma33@example.com,Rohan Sharma,266 Lake St,Mumbai,91609,India,851.43,0,153.26,1004.69,cancelled,cod,2025-01-14T06:00:00
+o0024,u029,ishaan.wilson29@example.com,Ishaan Wilson,225 Hill St,Berlin,25915,Germany,610.56,0,109.9,720.46,paid,upi,2025-08-26T09:00:00
+o0025,u011,reyansh.khan11@example.com,Reyansh Khan,140 Hill St,Lyon,73242,France,1200.24,0,216.04,1416.28,shipped,upi,2025-03-16T16:00:00
+o0026,u030,zara.khan30@example.com,Zara Khan,175 Rose St,Lyon,45018,France,1011.01,0,181.98,1192.99,paid,paypal,2025-07-17T13:00:00
+o0027,u020,logan.khan20@example.com,Logan Khan,23 Lake St,London,71993,UK,2427.85,0,437.01,2864.86,pending,cod,2025-03-01T13:00:00
+o0028,u025,emily.iyer25@example.com,Emily Iyer,234 Main St,New York,28894,USA,277.14,0,49.89,327.03,paid,upi,2025-01-26T16:00:00
+o0029,u005,charlotte.sharma5@example.com,Charlotte Sharma,148 Park St,Bangalore,21846,India,2946.5,0,530.37,3476.87,paid,card,2025-03-02T20:00:00
+o0030,u007,zara.singh7@example.com,Zara Singh,88 Park St,New York,20350,USA,933.12,0,167.96,1101.08,shipped,cod,2025-07-22T05:00:00
+o0031,u040,vivaan.singh40@example.com,Vivaan Singh,5 Hill St,Berlin,47700,Germany,1373.69,0,247.26,1620.95,delivered,upi,2025-03-07T21:00:00
+o0032,u005,charlotte.sharma5@example.com,Charlotte Sharma,152 Main St,Bangalore,96275,India,2030.7,0,365.53,2396.23,paid,paypal,2025-03-17T22:00:00
+o0033,u001,liam.johnson1@example.com,Liam Johnson,181 Park St,Paris,93442,France,1473.75,0,265.27,1739.02,paid,paypal,2025-07-18T07:00:00
+o0034,u009,ava.iyer9@example.com,Ava Iyer,18 Rose St,Paris,57823,France,1090.35,0,196.26,1286.61,pending,upi,2025-07-21T14:00:00
+o0035,u006,lucas.garcia6@example.com,Lucas Garcia,152 Lake St,Paris,25095,France,1410.89,0,253.96,1664.85,paid,card,2025-08-22T15:00:00
+o0036,u010,priya.gupta10@example.com,Priya Gupta,233 Lake St,New York,98188,USA,553.51,0,99.63,653.14,pending,paypal,2025-05-18T03:00:00
+o0037,u038,logan.mehta38@example.com,Logan Mehta,72 Main St,Bangalore,14877,India,2222.8,0,400.1,2622.9,paid,cod,2025-04-15T03:00:00
+o0038,u008,harper.mehta8@example.com,Harper Mehta,277 Hill St,Paris,86983,France,710.37,0,127.87,838.24,pending,upi,2025-04-27T11:00:00
+o0039,u027,logan.anderson27@example.com,Logan Anderson,190 Park St,Milan,68115,Italy,144.78,12,26.06,182.84,paid,upi,2025-01-09T22:00:00
+o0040,u024,charlotte.brown24@example.com,Charlotte Brown,98 Main St,Bangalore,69600,India,72.58,12,13.06,97.64,paid,upi,2025-04-12T08:00:00
+o0041,u039,aiden.miller39@example.com,Aiden Miller,106 Main St,Mumbai,82641,India,364.64,0,65.64,430.28,paid,upi,2025-07-21T18:00:00
+o0042,u015,ella.garcia15@example.com,Ella Garcia,122 Rose St,London,52437,UK,2543.91,0,457.9,3001.81,paid,upi,2025-01-04T11:00:00
+o0043,u017,arjun.brown17@example.com,Arjun Brown,33 Hill St,Milan,68756,Italy,1106.94,0,199.25,1306.19,refunded,paypal,2025-01-30T23:00:00
+o0044,u033,rohan.sharma33@example.com,Rohan Sharma,267 Lake St,Mumbai,70036,India,996.09,0,179.3,1175.39,delivered,card,2025-01-12T23:00:00
+o0045,u004,rohan.mehta4@example.com,Rohan Mehta,281 Lake St,Bangalore,59925,India,1152.49,0,207.45,1359.94,shipped,paypal,2025-06-12T18:00:00
+o0046,u030,zara.khan30@example.com,Zara Khan,131 Lake St,Lyon,30006,France,2866.93,0,516.05,3382.98,delivered,cod,2025-04-20T10:00:00
+o0047,u005,charlotte.sharma5@example.com,Charlotte Sharma,191 Park St,Bangalore,82924,India,56.82,12,10.23,79.05,paid,paypal,2025-07-10T23:00:00
+o0048,u008,harper.mehta8@example.com,Harper Mehta,143 Rose St,Paris,39643,France,1046.26,0,188.33,1234.59,paid,card,2025-04-05T03:00:00
+o0049,u039,aiden.miller39@example.com,Aiden Miller,16 Main St,Mumbai,79531,India,1506.09,0,271.1,1777.19,paid,cod,2025-02-06T23:00:00
+o0050,u027,logan.anderson27@example.com,Logan Anderson,218 Hill St,Milan,89570,Italy,2225.49,0,400.59,2626.08,paid,cod,2025-04-24T21:00:00
+o0051,u018,aanya.patel18@example.com,Aanya Patel,158 Main St,New York,38903,USA,1353.72,0,243.67,1597.39,paid,card,2025-05-15T21:00:00
+o0052,u001,liam.johnson1@example.com,Liam Johnson,221 Park St,Paris,26932,France,691.19,0,124.41,815.6,paid,upi,2025-05-08T23:00:00
+o0053,u033,rohan.sharma33@example.com,Rohan Sharma,214 Lake St,Mumbai,25096,India,1417.24,0,255.1,1672.34,paid,card,2025-04-14T22:00:00
+o0054,u021,sophia.singh21@example.com,Sophia Singh,206 Rose St,Lyon,20308,France,1305.88,0,235.06,1540.94,paid,paypal,2025-03-04T13:00:00
+o0055,u022,aditya.garcia22@example.com,Aditya Garcia,76 Park St,London,23474,UK,811.62,0,146.09,957.71,paid,paypal,2025-03-31T23:00:00
+o0056,u013,priya.singh13@example.com,Priya Singh,297 Hill St,Lyon,99277,France,2516.58,0,452.98,2969.56,shipped,paypal,2025-07-13T18:00:00
+o0057,u021,sophia.singh21@example.com,Sophia Singh,260 Main St,Lyon,50685,France,1515.66,0,272.82,1788.48,paid,cod,2025-01-15T11:00:00
+o0058,u003,daniel.garcia3@example.com,Daniel Garcia,260 Hill St,Milan,70648,Italy,863.24,0,155.38,1018.62,shipped,card,2025-08-10T02:00:00
+o0059,u029,ishaan.wilson29@example.com,Ishaan Wilson,259 Park St,Berlin,15130,Germany,1745.56,0,314.2,2059.76,paid,cod,2025-07-02T02:00:00
+o0060,u029,ishaan.wilson29@example.com,Ishaan Wilson,34 Lake St,Berlin,22387,Germany,1267.1,0,228.08,1495.18,shipped,cod,2025-06-15T10:00:00
+o0061,u019,aiden.martinez19@example.com,Aiden Martinez,44 Lake St,Paris,83259,France,2736.59,0,492.59,3229.18,paid,paypal,2025-06-02T22:00:00
+o0062,u009,ava.iyer9@example.com,Ava Iyer,186 Lake St,Paris,33627,France,1251.27,0,225.23,1476.5,paid,paypal,2025-04-03T00:00:00
+o0063,u032,vivaan.iyer32@example.com,Vivaan Iyer,270 Main St,Paris,96760,France,715.2,0,128.74,843.94,paid,upi,2025-08-02T23:00:00
+o0064,u039,aiden.miller39@example.com,Aiden Miller,120 Rose St,Mumbai,41348,India,1464.39,0,263.59,1727.98,paid,cod,2025-07-20T14:00:00
+o0065,u013,priya.singh13@example.com,Priya Singh,71 Lake St,Lyon,16839,France,1356.09,0,244.1,1600.19,delivered,cod,2025-07-25T19:00:00
+o0066,u024,charlotte.brown24@example.com,Charlotte Brown,140 Hill St,Bangalore,77286,India,470.97,0,84.77,555.74,paid,cod,2025-07-15T05:00:00
+o0067,u006,lucas.garcia6@example.com,Lucas Garcia,192 Park St,Paris,13694,France,590.95,0,106.37,697.32,paid,card,2025-04-09T02:00:00
+o0068,u022,aditya.garcia22@example.com,Aditya Garcia,41 Main St,London,43544,UK,852.4,0,153.43,1005.83,paid,upi,2025-06-07T00:00:00
+o0069,u036,isabella.davis36@example.com,Isabella Davis,124 Park St,New York,48177,USA,944.61,0,170.03,1114.64,paid,card,2025-05-12T18:00:00
+o0070,u040,vivaan.singh40@example.com,Vivaan Singh,200 Hill St,Berlin,15706,Germany,1976.73,0,355.81,2332.54,delivered,cod,2025-05-22T00:00:00
+o0071,u024,charlotte.brown24@example.com,Charlotte Brown,280 Lake St,Bangalore,94252,India,2270.66,0,408.72,2679.38,paid,cod,2025-01-12T11:00:00
+o0072,u031,henry.smith31@example.com,Henry Smith,22 Lake St,Delhi,50642,India,1958.54,0,352.54,2311.08,shipped,cod,2025-07-22T06:00:00
+o0073,u035,charlotte.anderson35@example.com,Charlotte Anderson,255 Hill St,Paris,58148,France,1631.57,0,293.68,1925.25,shipped,paypal,2025-03-28T05:00:00
+o0074,u006,lucas.garcia6@example.com,Lucas Garcia,228 Lake St,Paris,68606,France,2043.56,0,367.84,2411.4,paid,paypal,2025-04-20T05:00:00
+o0075,u040,vivaan.singh40@example.com,Vivaan Singh,188 Lake St,Berlin,60181,Germany,3043.74,0,547.87,3591.61,shipped,card,2025-01-18T07:00:00
+o0076,u039,aiden.miller39@example.com,Aiden Miller,204 Lake St,Mumbai,95139,India,404.61,0,72.83,477.44,paid,upi,2025-05-16T11:00:00
+o0077,u008,harper.mehta8@example.com,Harper Mehta,61 Lake St,Paris,44116,France,292.28,0,52.61,344.89,pending,cod,2025-08-22T17:00:00
+o0078,u014,matthew.rao14@example.com,Matthew Rao,178 Main St,Mumbai,82089,India,690.18,0,124.23,814.41,shipped,paypal,2025-09-05T10:00:00
+o0079,u020,logan.khan20@example.com,Logan Khan,14 Lake St,London,82616,UK,873.04,0,157.15,1030.19,shipped,paypal,2025-07-22T15:00:00
+o0080,u030,zara.khan30@example.com,Zara Khan,295 Main St,Lyon,26426,France,316.4,0,56.95,373.35,paid,card,2025-04-16T13:00:00
+o0081,u029,ishaan.wilson29@example.com,Ishaan Wilson,116 Lake St,Berlin,78012,Germany,1549.25,0,278.87,1828.12,paid,card,2025-08-28T22:00:00
+o0082,u017,arjun.brown17@example.com,Arjun Brown,87 Rose St,Milan,86106,Italy,890.54,0,160.3,1050.84,paid,upi,2025-01-24T16:00:00
+o0083,u040,vivaan.singh40@example.com,Vivaan Singh,16 Hill St,Berlin,92203,Germany,962.92,0,173.33,1136.25,shipped,paypal,2025-06-08T20:00:00
+o0084,u020,logan.khan20@example.com,Logan Khan,164 Lake St,London,62260,UK,1035.14,0,186.33,1221.47,paid,paypal,2025-02-06T10:00:00
+o0085,u033,rohan.sharma33@example.com,Rohan Sharma,127 Park St,Mumbai,22689,India,381.53,0,68.68,450.21,paid,paypal,2025-03-10T14:00:00
+o0086,u025,emily.iyer25@example.com,Emily Iyer,259 Hill St,New York,41552,USA,2228.02,0,401.04,2629.06,paid,paypal,2025-08-30T12:00:00
+o0087,u004,rohan.mehta4@example.com,Rohan Mehta,56 Hill St,Bangalore,27555,India,269.24,0,48.46,317.7,paid,paypal,2025-05-18T00:00:00
+o0088,u026,aarav.iyer26@example.com,Aarav Iyer,144 Rose St,Lyon,99181,France,970.28,0,174.65,1144.93,shipped,card,2025-04-26T17:00:00
+o0089,u009,ava.iyer9@example.com,Ava Iyer,74 Park St,Paris,88966,France,444.64,0,80.04,524.68,shipped,cod,2025-05-23T11:00:00
+o0090,u033,rohan.sharma33@example.com,Rohan Sharma,266 Hill St,Mumbai,29521,India,114.44,12,20.6,147.04,shipped,upi,2025-03-27T15:00:00
+o0091,u021,sophia.singh21@example.com,Sophia Singh,244 Main St,Lyon,58281,France,1243.27,0,223.79,1467.06,paid,card,2025-05-25T09:00:00
+o0092,u027,logan.anderson27@example.com,Logan Anderson,269 Rose St,Milan,59832,Italy,3107.97,0,559.43,3667.4,paid,upi,2025-05-03T05:00:00
+o0093,u003,daniel.garcia3@example.com,Daniel Garcia,212 Park St,Milan,63788,Italy,124.27,12,22.37,158.64,shipped,cod,2025-04-18T04:00:00
+o0094,u004,rohan.mehta4@example.com,Rohan Mehta,236 Rose St,Bangalore,54869,India,2023.47,0,364.22,2387.69,shipped,paypal,2025-03-22T05:00:00
+o0095,u017,arjun.brown17@example.com,Arjun Brown,141 Lake St,Milan,25974,Italy,1805.23,0,324.94,2130.17,shipped,cod,2025-08-28T23:00:00
+o0096,u026,aarav.iyer26@example.com,Aarav Iyer,139 Rose St,Lyon,45601,France,1193.34,0,214.8,1408.14,paid,card,2025-07-31T17:00:00
+o0097,u040,vivaan.singh40@example.com,Vivaan Singh,170 Hill St,Berlin,23178,Germany,1257.33,0,226.32,1483.65,delivered,upi,2025-01-26T13:00:00
+o0098,u001,liam.johnson1@example.com,Liam Johnson,31 Main St,Paris,95498,France,1154.17,0,207.75,1361.92,shipped,upi,2025-03-15T20:00:00
+o0099,u035,charlotte.anderson35@example.com,Charlotte Anderson,254 Park St,Paris,47941,France,292.28,0,52.61,344.89,paid,card,2025-08-03T12:00:00
+o0100,u020,logan.khan20@example.com,Logan Khan,253 Park St,London,76088,UK,901.62,0,162.29,1063.91,paid,paypal,2025-05-20T16:00:00
+o0101,u013,priya.singh13@example.com,Priya Singh,96 Main St,Lyon,54185,France,450.81,0,81.15,531.96,paid,upi,2025-03-07T22:00:00
+o0102,u012,evelyn.brown12@example.com,Evelyn Brown,169 Lake St,Madrid,86344,Spain,1571.01,0,282.78,1853.79,pending,card,2025-04-25T08:00:00
+o0103,u017,arjun.brown17@example.com,Arjun Brown,152 Lake St,Milan,90560,Italy,1270.54,0,228.7,1499.24,paid,upi,2025-01-31T20:00:00
+o0104,u009,ava.iyer9@example.com,Ava Iyer,186 Main St,Paris,83946,France,3783.42,0,681.02,4464.44,paid,card,2025-04-25T16:00:00
+o0105,u036,isabella.davis36@example.com,Isabella Davis,299 Hill St,New York,21919,USA,1188.09,0,213.86,1401.95,shipped,cod,2025-06-24T06:00:00
+o0106,u004,rohan.mehta4@example.com,Rohan Mehta,24 Hill St,Bangalore,55158,India,2869.85,0,516.57,3386.42,delivered,card,2025-05-29T02:00:00
+o0107,u035,charlotte.anderson35@example.com,Charlotte Anderson,70 Hill St,Paris,59081,France,851.6,0,153.29,1004.89,paid,cod,2025-04-15T05:00:00
+o0108,u025,emily.iyer25@example.com,Emily Iyer,279 Hill St,New York,79721,USA,667.23,0,120.1,787.33,paid,upi,2025-06-22T23:00:00
+o0109,u016,sophia.garcia16@example.com,Sophia Garcia,25 Park St,Milan,15798,Italy,1861.97,0,335.15,2197.12,paid,cod,2025-01-09T14:00:00
+o0110,u015,ella.garcia15@example.com,Ella Garcia,165 Park St,London,49552,UK,1653.9,0,297.7,1951.6,paid,upi,2025-05-28T19:00:00
+o0111,u027,logan.anderson27@example.com,Logan Anderson,196 Rose St,Milan,51777,Italy,1630.07,0,293.41,1923.48,delivered,cod,2025-08-30T20:00:00
+o0112,u027,logan.anderson27@example.com,Logan Anderson,30 Rose St,Milan,64090,Italy,376.21,0,67.72,443.93,paid,upi,2025-02-06T14:00:00
+o0113,u025,emily.iyer25@example.com,Emily Iyer,27 Lake St,New York,59436,USA,1233.18,0,221.97,1455.15,delivered,card,2025-07-05T06:00:00
+o0114,u005,charlotte.sharma5@example.com,Charlotte Sharma,109 Park St,Bangalore,25376,India,1609.24,0,289.66,1898.9,pending,cod,2025-09-02T00:00:00
+o0115,u016,sophia.garcia16@example.com,Sophia Garcia,158 Lake St,Milan,57139,Italy,1140.54,0,205.3,1345.84,shipped,cod,2025-06-16T11:00:00
+o0116,u030,zara.khan30@example.com,Zara Khan,24 Rose St,Lyon,39002,France,311.84,0,56.13,367.97,pending,upi,2025-03-22T13:00:00
+o0117,u002,vivaan.singh2@example.com,Vivaan Singh,173 Lake St,London,74044,UK,2152.88,0,387.52,2540.4,pending,cod,2025-05-08T17:00:00
+o0118,u030,zara.khan30@example.com,Zara Khan,25 Main St,Lyon,64053,France,490.27,0,88.25,578.52,paid,upi,2025-01-09T02:00:00
+o0119,u005,charlotte.sharma5@example.com,Charlotte Sharma,248 Hill St,Bangalore,12061,India,1430.1,0,257.42,1687.52,paid,cod,2025-06-20T19:00:00
+o0120,u001,liam.johnson1@example.com,Liam Johnson,9 Rose St,Paris,98346,France,1412.91,0,254.32,1667.23,paid,upi,2025-09-08T09:00:00
+o0121,u007,zara.singh7@example.com,Zara Singh,130 Lake St,New York,45038,USA,470.97,0,84.77,555.74,paid,card,2025-06-08T16:00:00
+o0122,u024,charlotte.brown24@example.com,Charlotte Brown,88 Main St,Bangalore,75517,India,3331.78,0,599.72,3931.5,paid,paypal,2025-06-13T00:00:00
+o0123,u037,rohan.sharma37@example.com,Rohan Sharma,291 Hill St,Delhi,45532,India,470.97,0,84.77,555.74,paid,card,2025-08-19T22:00:00
+o0124,u018,aanya.patel18@example.com,Aanya Patel,204 Main St,New York,49226,USA,292.28,0,52.61,344.89,paid,upi,2025-05-31T04:00:00
+o0125,u037,rohan.sharma37@example.com,Rohan Sharma,175 Rose St,Delhi,90460,India,2627.81,0,473.01,3100.82,shipped,cod,2025-08-03T02:00:00
+o0126,u021,sophia.singh21@example.com,Sophia Singh,284 Hill St,Lyon,66603,France,726.9,0,130.84,857.74,paid,cod,2025-02-28T11:00:00
+o0127,u006,lucas.garcia6@example.com,Lucas Garcia,3 Lake St,Paris,68292,France,1864.62,0,335.63,2200.25,paid,paypal,2025-01-28T02:00:00
+o0128,u007,zara.singh7@example.com,Zara Singh,46 Lake St,New York,82642,USA,552.06,0,99.37,651.43,paid,paypal,2025-01-27T00:00:00
+o0129,u025,emily.iyer25@example.com,Emily Iyer,125 Rose St,New York,78302,USA,269.24,0,48.46,317.7,paid,cod,2025-07-05T17:00:00
+o0130,u011,reyansh.khan11@example.com,Reyansh Khan,154 Hill St,Lyon,20082,France,693.61,0,124.85,818.46,paid,paypal,2025-03-12T13:00:00
+o0131,u016,sophia.garcia16@example.com,Sophia Garcia,70 Lake St,Milan,52030,Italy,1878.06,0,338.05,2216.11,shipped,upi,2025-07-28T20:00:00
+o0132,u031,henry.smith31@example.com,Henry Smith,103 Rose St,Delhi,81516,India,1277.66,0,229.98,1507.64,paid,card,2025-01-30T18:00:00
+o0133,u030,zara.khan30@example.com,Zara Khan,124 Lake St,Lyon,96332,France,1399.95,0,251.99,1651.94,paid,cod,2025-06-12T09:00:00
+o0134,u025,emily.iyer25@example.com,Emily Iyer,260 Hill St,New York,81256,USA,996.09,0,179.3,1175.39,paid,paypal,2025-04-13T17:00:00
+o0135,u035,charlotte.anderson35@example.com,Charlotte Anderson,23 Rose St,Paris,94545,France,491.91,0,88.54,580.45,delivered,cod,2025-06-15T19:00:00
+o0136,u022,aditya.garcia22@example.com,Aditya Garcia,177 Main St,London,73277,UK,3915.61,0,704.81,4620.42,paid,paypal,2025-05-09T04:00:00
+o0137,u027,logan.anderson27@example.com,Logan Anderson,234 Park St,Milan,78303,Italy,590.07,0,106.21,696.28,shipped,paypal,2025-03-21T10:00:00
+o0138,u031,henry.smith31@example.com,Henry Smith,154 Main St,Delhi,25084,India,996.09,0,179.3,1175.39,paid,paypal,2025-03-23T02:00:00
+o0139,u007,zara.singh7@example.com,Zara Singh,119 Hill St,New York,92543,USA,1178.73,0,212.17,1390.9,paid,upi,2025-09-03T14:00:00
+o0140,u028,sophia.miller28@example.com,Sophia Miller,167 Park St,Berlin,69972,Germany,1633.83,0,294.09,1927.92,paid,paypal,2025-02-17T11:00:00
+o0141,u032,vivaan.iyer32@example.com,Vivaan Iyer,44 Park St,Paris,51049,France,2011.48,0,362.07,2373.55,paid,upi,2025-06-30T09:00:00
+o0142,u020,logan.khan20@example.com,Logan Khan,71 Rose St,London,60293,UK,292.28,0,52.61,344.89,paid,upi,2025-04-10T13:00:00
+o0143,u032,vivaan.iyer32@example.com,Vivaan Iyer,184 Main St,Paris,73518,France,283.91,0,51.1,335.01,paid,upi,2025-06-08T01:00:00
+o0144,u025,emily.iyer25@example.com,Emily Iyer,290 Hill St,New York,82053,USA,1274.5,0,229.41,1503.91,shipped,card,2025-02-13T14:00:00
+o0145,u037,rohan.sharma37@example.com,Rohan Sharma,226 Rose St,Delhi,38644,India,919.47,0,165.5,1084.97,paid,card,2025-07-30T01:00:00
+o0146,u016,sophia.garcia16@example.com,Sophia Garcia,220 Park St,Milan,90760,Italy,872.22,0,157.0,1029.22,paid,upi,2025-06-06T20:00:00
+o0147,u014,matthew.rao14@example.com,Matthew Rao,87 Lake St,Mumbai,48356,India,634.32,0,114.18,748.5,paid,paypal,2025-06-02T17:00:00
+o0148,u033,rohan.sharma33@example.com,Rohan Sharma,65 Park St,Mumbai,42725,India,737.96,0,132.83,870.79,paid,paypal,2025-08-10T20:00:00
+o0149,u016,sophia.garcia16@example.com,Sophia Garcia,233 Hill St,Milan,52898,Italy,2833.57,0,510.04,3343.61,shipped,card,2025-08-28T11:00:00
+o0150,u006,lucas.garcia6@example.com,Lucas Garcia,249 Lake St,Paris,99463,France,2768.49,0,498.33,3266.82,cancelled,card,2025-02-03T18:00:00
+o0151,u003,daniel.garcia3@example.com,Daniel Garcia,226 Hill St,Milan,10088,Italy,726.9,0,130.84,857.74,paid,upi,2025-08-26T05:00:00
+o0152,u009,ava.iyer9@example.com,Ava Iyer,157 Park St,Paris,66260,France,837.76,0,150.8,988.56,delivered,card,2025-04-12T20:00:00
+o0153,u007,zara.singh7@example.com,Zara Singh,266 Hill St,New York,11217,USA,610.56,0,109.9,720.46,paid,paypal,2025-06-01T07:00:00
+o0154,u008,harper.mehta8@example.com,Harper Mehta,36 Rose St,Paris,83831,France,2437.92,0,438.83,2876.75,paid,upi,2025-06-23T04:00:00
+o0155,u029,ishaan.wilson29@example.com,Ishaan Wilson,197 Lake St,Berlin,66280,Germany,1685.07,0,303.31,1988.38,paid,upi,2025-05-31T23:00:00
+o0156,u016,sophia.garcia16@example.com,Sophia Garcia,201 Lake St,Milan,94694,Italy,2018.46,0,363.32,2381.78,paid,upi,2025-02-18T23:00:00
+o0157,u032,vivaan.iyer32@example.com,Vivaan Iyer,242 Main St,Paris,12187,France,1602.02,0,288.36,1890.38,shipped,card,2025-06-24T05:00:00
+o0158,u001,liam.johnson1@example.com,Liam Johnson,276 Rose St,Paris,30012,France,1318.52,0,237.33,1555.85,paid,card,2025-06-13T17:00:00
+o0159,u020,logan.khan20@example.com,Logan Khan,34 Lake St,London,67342,UK,480.17,0,86.43,566.6,pending,upi,2025-03-25T12:00:00
+o0160,u004,rohan.mehta4@example.com,Rohan Mehta,90 Main St,Bangalore,11660,India,378.03,0,68.05,446.08,pending,upi,2025-06-20T23:00:00
+o0161,u001,liam.johnson1@example.com,Liam Johnson,138 Main St,Paris,13847,France,403.7,0,72.67,476.37,paid,cod,2025-02-02T23:00:00
+o0162,u018,aanya.patel18@example.com,Aanya Patel,185 Main St,New York,75484,USA,933.93,0,168.11,1102.04,shipped,upi,2025-04-27T16:00:00
+o0163,u024,charlotte.brown24@example.com,Charlotte Brown,126 Main St,Bangalore,71835,India,2409.66,0,433.74,2843.4,paid,cod,2025-01-12T00:00:00
+o0164,u010,priya.gupta10@example.com,Priya Gupta,164 Lake St,New York,20208,USA,506.96,0,91.25,598.21,shipped,paypal,2025-08-23T23:00:00
+o0165,u008,harper.mehta8@example.com,Harper Mehta,36 Hill St,Paris,47002,France,146.14,12,26.31,184.45,refunded,paypal,2025-09-02T12:00:00
+o0166,u021,sophia.singh21@example.com,Sophia Singh,289 Lake St,Lyon,91620,France,163.64,0,29.46,193.1,paid,cod,2025-02-21T09:00:00
+o0167,u024,charlotte.brown24@example.com,Charlotte Brown,54 Park St,Bangalore,79443,India,1472.56,0,265.06,1737.62,paid,cod,2025-07-06T09:00:00
+o0168,u032,vivaan.iyer32@example.com,Vivaan Iyer,267 Hill St,Paris,58823,France,1042.83,0,187.71,1230.54,paid,card,2025-01-12T07:00:00
+o0169,u038,logan.mehta38@example.com,Logan Mehta,32 Hill St,Bangalore,96827,India,480.17,0,86.43,566.6,paid,upi,2025-06-01T18:00:00
+o0170,u019,aiden.martinez19@example.com,Aiden Martinez,239 Lake St,Paris,63282,France,1317.41,0,237.13,1554.54,paid,paypal,2025-02-12T14:00:00
+o0171,u014,matthew.rao14@example.com,Matthew Rao,183 Hill St,Mumbai,77300,India,2276.0,0,409.68,2685.68,paid,paypal,2025-07-02T07:00:00
+o0172,u017,arjun.brown17@example.com,Arjun Brown,72 Main St,Milan,11567,Italy,1271.84,0,228.93,1500.77,paid,upi,2025-04-29T03:00:00
+o0173,u009,ava.iyer9@example.com,Ava Iyer,102 Hill St,Paris,26880,France,1098.58,0,197.74,1296.32,paid,paypal,2025-01-06T02:00:00
+o0174,u008,harper.mehta8@example.com,Harper Mehta,203 Hill St,Paris,13864,France,434.03,0,78.13,512.16,paid,cod,2025-04-21T23:00:00
+o0175,u012,evelyn.brown12@example.com,Evelyn Brown,211 Rose St,Madrid,72787,Spain,1676.17,0,301.71,1977.88,paid,card,2025-03-17T15:00:00
+o0176,u018,aanya.patel18@example.com,Aanya Patel,258 Lake St,New York,60905,USA,3712.37,0,668.23,4380.6,paid,upi,2025-08-22T18:00:00
+o0177,u002,vivaan.singh2@example.com,Vivaan Singh,124 Lake St,London,79951,UK,2323.6,0,418.25,2741.85,pending,card,2025-03-05T21:00:00
+o0178,u015,ella.garcia15@example.com,Ella Garcia,252 Main St,London,21830,UK,1557.24,0,280.3,1837.54,paid,upi,2025-03-21T05:00:00
+o0179,u039,aiden.miller39@example.com,Aiden Miller,91 Lake St,Mumbai,17806,India,2017.79,0,363.2,2380.99,paid,upi,2025-03-29T22:00:00
+o0180,u038,logan.mehta38@example.com,Logan Mehta,155 Lake St,Bangalore,27884,India,1806.29,0,325.13,2131.42,paid,cod,2025-01-26T10:00:00
+o0181,u032,vivaan.iyer32@example.com,Vivaan Iyer,1 Rose St,Paris,61327,France,829.62,0,149.33,978.95,cancelled,card,2025-02-15T23:00:00
+o0182,u012,evelyn.brown12@example.com,Evelyn Brown,46 Lake St,Madrid,68540,Spain,1147.49,0,206.55,1354.04,paid,paypal,2025-03-23T05:00:00
+o0183,u014,matthew.rao14@example.com,Matthew Rao,215 Park St,Mumbai,64266,India,981.06,0,176.59,1157.65,shipped,cod,2025-04-23T23:00:00
+o0184,u023,myra.martinez23@example.com,Myra Martinez,193 Park St,Bangalore,19830,India,3256.07,0,586.09,3842.16,shipped,card,2025-03-29T05:00:00
+o0185,u022,aditya.garcia22@example.com,Aditya Garcia,277 Lake St,London,96585,UK,1792.29,0,322.61,2114.9,paid,paypal,2025-08-25T23:00:00
+o0186,u016,sophia.garcia16@example.com,Sophia Garcia,79 Main St,Milan,57294,Italy,364.64,0,65.64,430.28,paid,cod,2025-08-04T15:00:00
+o0187,u006,lucas.garcia6@example.com,Lucas Garcia,158 Hill St,Paris,71727,France,2404.82,0,432.87,2837.69,shipped,paypal,2025-05-02T03:00:00
+o0188,u006,lucas.garcia6@example.com,Lucas Garcia,44 Lake St,Paris,80968,France,1932.57,0,347.86,2280.43,paid,upi,2025-06-20T03:00:00
+o0189,u036,isabella.davis36@example.com,Isabella Davis,294 Park St,New York,72424,USA,886.74,0,159.61,1046.35,paid,card,2025-06-25T15:00:00
+o0190,u026,aarav.iyer26@example.com,Aarav Iyer,76 Main St,Lyon,68856,France,1440.51,0,259.29,1699.8,paid,upi,2025-06-23T19:00:00
+o0191,u014,matthew.rao14@example.com,Matthew Rao,133 Lake St,Mumbai,18783,India,966.84,0,174.03,1140.87,paid,cod,2025-02-07T19:00:00
+o0192,u036,isabella.davis36@example.com,Isabella Davis,55 Rose St,New York,23237,USA,3334.12,0,600.14,3934.26,paid,paypal,2025-07-14T03:00:00
+o0193,u027,logan.anderson27@example.com,Logan Anderson,206 Main St,Milan,61877,Italy,1400.35,0,252.06,1652.41,paid,upi,2025-06-05T21:00:00
+o0194,u004,rohan.mehta4@example.com,Rohan Mehta,46 Park St,Bangalore,67896,India,2680.28,0,482.45,3162.73,paid,cod,2025-07-06T13:00:00
+o0195,u032,vivaan.iyer32@example.com,Vivaan Iyer,103 Main St,Paris,42701,France,1983.64,0,357.06,2340.7,paid,cod,2025-02-14T06:00:00
+o0196,u004,rohan.mehta4@example.com,Rohan Mehta,229 Park St,Bangalore,72204,India,1599.63,0,287.93,1887.56,shipped,paypal,2025-05-06T19:00:00
+o0197,u023,myra.martinez23@example.com,Myra Martinez,114 Park St,Bangalore,98826,India,679.44,0,122.3,801.74,paid,paypal,2025-07-19T06:00:00
+o0198,u027,logan.anderson27@example.com,Logan Anderson,5 Park St,Milan,43081,Italy,36.29,12,6.53,54.82,shipped,paypal,2025-06-15T05:00:00
+o0199,u018,aanya.patel18@example.com,Aanya Patel,145 Lake St,New York,99707,USA,2051.92,0,369.35,2421.27,paid,cod,2025-06-15T19:00:00
+o0200,u005,charlotte.sharma5@example.com,Charlotte Sharma,207 Lake St,Bangalore,99228,India,2084.86,0,375.27,2460.13,paid,card,2025-07-26T19:00:00

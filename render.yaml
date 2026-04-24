@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: maison-storefront
+    runtime: static
+    buildCommand: |
+      corepack enable
+      corepack prepare pnpm@10.33.2 --activate
+      pnpm install --frozen-lockfile
+      VITE_BASE_PATH=/ VITE_ROUTER_BASEPATH=/ STATIC_BASE_PATH=/ pnpm run build:pages
+    staticPublishPath: dist/pages
+    pullRequestPreviewsEnabled: true
+    envVars:
+      - key: VITE_SUPABASE_URL
+        sync: false
+      - key: VITE_SUPABASE_PUBLISHABLE_KEY
+        sync: false
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

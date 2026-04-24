@@ -51,13 +51,13 @@ function Index() {
           height={1920}
           className="absolute inset-0 w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-background/50 via-transparent to-background/20" />
+        <div className="absolute inset-0 bg-gradient-to-r from-foreground/55 via-foreground/25 to-foreground/35" />
         <div className="relative z-10 h-full flex flex-col justify-end pb-16 md:pb-24 px-5 md:px-10">
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
-            className="eyebrow text-background mb-5"
+            className="eyebrow text-background/95 mb-5 drop-shadow-[0_2px_8px_rgba(0,0,0,0.55)]"
           >
             Spring · Summer 2025
           </motion.p>
@@ -65,7 +65,7 @@ function Index() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.55, duration: 1 }}
-            className="font-display text-5xl md:text-8xl lg:text-[10rem] leading-[0.95] text-background max-w-5xl"
+            className="font-display text-5xl md:text-8xl lg:text-[10rem] leading-[0.95] text-background drop-shadow-[0_6px_20px_rgba(0,0,0,0.6)] max-w-5xl"
           >
             The art of <em className="italic">restraint.</em>
           </motion.h1>

@@ -76,6 +76,7 @@ function AccountPage() {
         </div>
         <div className="mt-12 flex flex-wrap gap-6">
           <Link to="/orders" className="eyebrow link-underline">My orders</Link>
+          <Link to="/admin/analytics" className="eyebrow link-underline">Analytics</Link>
           <button onClick={signOut} className="eyebrow link-underline text-muted-foreground">Sign out</button>
         </div>
       </div>

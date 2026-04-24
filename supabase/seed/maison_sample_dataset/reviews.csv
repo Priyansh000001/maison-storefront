@@ -1,0 +1,151 @@
+id,product_id,user_id,rating,title,comment,created_at
+r0001,p042,u032,1,Just okay,Material feels premium and the fit is true to size.,2025-05-19T00:00:00
+r0002,p026,u025,4,Perfect fit,Material feels premium and the fit is true to size.,2025-08-01T00:00:00
+r0003,p037,u013,5,Beautiful piece,Material feels premium and the fit is true to size.,2025-03-29T00:00:00
+r0004,p044,u035,4,Not for me,Material feels premium and the fit is true to size.,2025-07-22T00:00:00
+r0005,p023,u033,5,Great quality,Material feels premium and the fit is true to size.,2025-07-19T00:00:00
+r0006,p036,u012,5,Not for me,Material feels premium and the fit is true to size.,2025-03-05T00:00:00
+r0007,p017,u036,4,Great quality,Material feels premium and the fit is true to size.,2025-07-25T00:00:00
+r0008,p022,u006,5,Great quality,Material feels premium and the fit is true to size.,2025-08-10T00:00:00
+r0009,p020,u027,4,Just okay,Material feels premium and the fit is true to size.,2025-05-07T00:00:00
+r0010,p017,u038,5,Loved it,Material feels premium and the fit is true to size.,2025-06-01T00:00:00
+r0011,p004,u038,4,Perfect fit,Material feels premium and the fit is true to size.,2025-02-19T00:00:00
+r0012,p031,u013,5,Beautiful piece,Material feels premium and the fit is true to size.,2025-05-09T00:00:00
+r0013,p034,u020,5,Great quality,Material feels premium and the fit is true to size.,2025-03-08T00:00:00
+r0014,p013,u022,5,Perfect fit,Material feels premium and the fit is true to size.,2025-05-29T00:00:00
+r0015,p010,u021,3,Great quality,Material feels premium and the fit is true to size.,2025-08-19T00:00:00
+r0016,p006,u032,5,Great quality,Material feels premium and the fit is true to size.,2025-04-22T00:00:00
+r0017,p041,u004,5,Just okay,Material feels premium and the fit is true to size.,2025-03-26T00:00:00
+r0018,p011,u037,4,Not for me,Material feels premium and the fit is true to size.,2025-08-15T00:00:00
+r0019,p006,u009,4,Beautiful piece,Material feels premium and the fit is true to size.,2025-05-21T00:00:00
+r0020,p026,u028,2,Not for me,Material feels premium and the fit is true to size.,2025-02-02T00:00:00
+r0021,p003,u035,5,Just okay,Material feels premium and the fit is true to size.,2025-02-04T00:00:00
+r0022,p021,u034,5,Beautiful piece,Material feels premium and the fit is true to size.,2025-02-02T00:00:00
+r0023,p041,u016,5,Just okay,Material feels premium and the fit is true to size.,2025-04-21T00:00:00
+r0024,p009,u007,5,Perfect fit,Material feels premium and the fit is true to size.,2025-04-20T00:00:00
+r0025,p011,u005,3,Just okay,Material feels premium and the fit is true to size.,2025-04-16T00:00:00
+r0026,p030,u034,4,Just okay,Material feels premium and the fit is true to size.,2025-05-23T00:00:00
+r0027,p044,u009,5,Not for me,Material feels premium and the fit is true to size.,2025-05-03T00:00:00
+r0028,p013,u011,2,Not for me,Material feels premium and the fit is true to size.,2025-02-05T00:00:00
+r0029,p015,u015,4,Great quality,Material feels premium and the fit is true to size.,2025-03-27T00:00:00
+r0030,p002,u038,5,Loved it,Material feels premium and the fit is true to size.,2025-05-05T00:00:00
+r0031,p042,u003,5,Beautiful piece,Material feels premium and the fit is true to size.,2025-04-07T00:00:00
+r0032,p035,u040,5,Loved it,Material feels premium and the fit is true to size.,2025-07-20T00:00:00
+r0033,p007,u002,5,Loved it,Material feels premium and the fit is true to size.,2025-05-18T00:00:00
+r0034,p029,u025,5,Just okay,Material feels premium and the fit is true to size.,2025-06-02T00:00:00
+r0035,p010,u014,4,Beautiful piece,Material feels premium and the fit is true to size.,2025-02-03T00:00:00
+r0036,p020,u027,4,Beautiful piece,Material feels premium and the fit is true to size.,2025-06-14T00:00:00
+r0037,p018,u040,4,Great quality,Material feels premium and the fit is true to size.,2025-05-19T00:00:00
+r0038,p007,u033,4,Loved it,Material feels premium and the fit is true to size.,2025-04-14T00:00:00
+r0039,p008,u007,5,Perfect fit,Material feels premium and the fit is true to size.,2025-03-24T00:00:00
+r0040,p017,u034,1,Just okay,Material feels premium and the fit is true to size.,2025-07-31T00:00:00
+r0041,p027,u019,5,Perfect fit,Material feels premium and the fit is true to size.,2025-06-08T00:00:00
+r0042,p014,u031,5,Loved it,Material feels premium and the fit is true to size.,2025-02-04T00:00:00
+r0043,p043,u006,3,Perfect fit,Material feels premium and the fit is true to size.,2025-07-22T00:00:00
+r0044,p032,u010,2,Perfect fit,Material feels premium and the fit is true to size.,2025-02-20T00:00:00
+r0045,p007,u017,4,Not for me,Material feels premium and the fit is true to size.,2025-04-17T00:00:00
+r0046,p017,u030,5,Great quality,Material feels premium and the fit is true to size.,2025-02-11T00:00:00
+r0047,p019,u024,3,Just okay,Material feels premium and the fit is true to size.,2025-05-21T00:00:00
+r0048,p008,u007,3,Loved it,Material feels premium and the fit is true to size.,2025-02-03T00:00:00
+r0049,p009,u011,5,Not for me,Material feels premium and the fit is true to size.,2025-07-10T00:00:00
+r0050,p018,u006,5,Just okay,Material feels premium and the fit is true to size.,2025-03-19T00:00:00
+r0051,p008,u026,5,Not for me,Material feels premium and the fit is true to size.,2025-04-11T00:00:00
+r0052,p025,u031,4,Beautiful piece,Material feels premium and the fit is true to size.,2025-03-15T00:00:00
+r0053,p008,u009,4,Loved it,Material feels premium and the fit is true to size.,2025-03-13T00:00:00
+r0054,p007,u027,3,Not for me,Material feels premium and the fit is true to size.,2025-06-26T00:00:00
+r0055,p044,u029,5,Not for me,Material feels premium and the fit is true to size.,2025-08-19T00:00:00
+r0056,p023,u040,5,Beautiful piece,Material feels premium and the fit is true to size.,2025-08-06T00:00:00
+r0057,p009,u031,2,Loved it,Material feels premium and the fit is true to size.,2025-05-17T00:00:00
+r0058,p029,u003,5,Beautiful piece,Material feels premium and the fit is true to size.,2025-04-22T00:00:00
+r0059,p001,u034,4,Perfect fit,Material feels premium and the fit is true to size.,2025-08-05T00:00:00
+r0060,p037,u015,1,Beautiful piece,Material feels premium and the fit is true to size.,2025-04-28T00:00:00
+r0061,p034,u034,4,Perfect fit,Material feels premium and the fit is true to size.,2025-02-25T00:00:00
+r0062,p028,u016,5,Beautiful piece,Material feels premium and the fit is true to size.,2025-07-24T00:00:00
+r0063,p042,u025,5,Perfect fit,Material feels premium and the fit is true to size.,2025-07-07T00:00:00
+r0064,p004,u001,4,Great quality,Material feels premium and the fit is true to size.,2025-06-10T00:00:00
+r0065,p031,u032,3,Loved it,Material feels premium and the fit is true to size.,2025-08-12T00:00:00
+r0066,p032,u021,5,Just okay,Material feels premium and the fit is true to size.,2025-02-13T00:00:00
+r0067,p033,u015,4,Not for me,Material feels premium and the fit is true to size.,2025-05-15T00:00:00
+r0068,p016,u006,5,Perfect fit,Material feels premium and the fit is true to size.,2025-05-26T00:00:00
+r0069,p006,u032,5,Loved it,Material feels premium and the fit is true to size.,2025-06-08T00:00:00
+r0070,p042,u002,5,Not for me,Material feels premium and the fit is true to size.,2025-02-10T00:00:00
+r0071,p036,u036,5,Loved it,Material feels premium and the fit is true to size.,2025-07-05T00:00:00
+r0072,p040,u020,3,Perfect fit,Material feels premium and the fit is true to size.,2025-03-25T00:00:00
+r0073,p042,u030,2,Just okay,Material feels premium and the fit is true to size.,2025-02-14T00:00:00
+r0074,p015,u030,5,Perfect fit,Material feels premium and the fit is true to size.,2025-07-04T00:00:00
+r0075,p031,u024,4,Loved it,Material feels premium and the fit is true to size.,2025-02-25T00:00:00
+r0076,p043,u015,5,Just okay,Material feels premium and the fit is true to size.,2025-07-13T00:00:00
+r0077,p019,u036,5,Beautiful piece,Material feels premium and the fit is true to size.,2025-02-28T00:00:00
+r0078,p003,u011,5,Beautiful piece,Material feels premium and the fit is true to size.,2025-08-10T00:00:00
+r0079,p027,u007,5,Great quality,Material feels premium and the fit is true to size.,2025-03-21T00:00:00
+r0080,p008,u026,5,Great quality,Material feels premium and the fit is true to size.,2025-08-03T00:00:00
+r0081,p022,u007,4,Loved it,Material feels premium and the fit is true to size.,2025-07-13T00:00:00
+r0082,p044,u038,5,Not for me,Material feels premium and the fit is true to size.,2025-05-29T00:00:00
+r0083,p043,u038,2,Great quality,Material feels premium and the fit is true to size.,2025-06-08T00:00:00
+r0084,p001,u034,4,Perfect fit,Material feels premium and the fit is true to size.,2025-05-22T00:00:00
+r0085,p038,u031,2,Great quality,Material feels premium and the fit is true to size.,2025-07-28T00:00:00
+r0086,p038,u012,4,Great quality,Material feels premium and the fit is true to size.,2025-02-27T00:00:00
+r0087,p025,u039,4,Just okay,Material feels premium and the fit is true to size.,2025-06-10T00:00:00
+r0088,p025,u027,1,Beautiful piece,Material feels premium and the fit is true to size.,2025-08-15T00:00:00
+r0089,p016,u018,5,Just okay,Material feels premium and the fit is true to size.,2025-04-17T00:00:00
+r0090,p029,u009,5,Perfect fit,Material feels premium and the fit is true to size.,2025-07-30T00:00:00
+r0091,p033,u020,3,Perfect fit,Material feels premium and the fit is true to size.,2025-04-22T00:00:00
+r0092,p036,u014,5,Perfect fit,Material feels premium and the fit is true to size.,2025-08-02T00:00:00
+r0093,p019,u023,2,Great quality,Material feels premium and the fit is true to size.,2025-08-01T00:00:00
+r0094,p042,u012,5,Beautiful piece,Material feels premium and the fit is true to size.,2025-07-14T00:00:00
+r0095,p021,u008,4,Perfect fit,Material feels premium and the fit is true to size.,2025-06-03T00:00:00
+r0096,p038,u037,2,Beautiful piece,Material feels premium and the fit is true to size.,2025-05-18T00:00:00
+r0097,p044,u035,5,Not for me,Material feels premium and the fit is true to size.,2025-02-04T00:00:00
+r0098,p034,u007,5,Great quality,Material feels premium and the fit is true to size.,2025-02-14T00:00:00
+r0099,p043,u004,5,Great quality,Material feels premium and the fit is true to size.,2025-04-15T00:00:00
+r0100,p044,u017,5,Loved it,Material feels premium and the fit is true to size.,2025-07-27T00:00:00
+r0101,p019,u014,4,Loved it,Material feels premium and the fit is true to size.,2025-05-03T00:00:00
+r0102,p029,u007,4,Beautiful piece,Material feels premium and the fit is true to size.,2025-08-09T00:00:00
+r0103,p036,u015,4,Perfect fit,Material feels premium and the fit is true to size.,2025-05-11T00:00:00
+r0104,p016,u033,4,Beautiful piece,Material feels premium and the fit is true to size.,2025-04-15T00:00:00
+r0105,p043,u004,2,Not for me,Material feels premium and the fit is true to size.,2025-05-18T00:00:00
+r0106,p044,u021,2,Loved it,Material feels premium and the fit is true to size.,2025-02-04T00:00:00
+r0107,p017,u013,4,Not for me,Material feels premium and the fit is true to size.,2025-03-30T00:00:00
+r0108,p041,u024,4,Perfect fit,Material feels premium and the fit is true to size.,2025-08-09T00:00:00
+r0109,p039,u013,4,Great quality,Material feels premium and the fit is true to size.,2025-04-17T00:00:00
+r0110,p029,u012,1,Loved it,Material feels premium and the fit is true to size.,2025-03-20T00:00:00
+r0111,p012,u033,5,Loved it,Material feels premium and the fit is true to size.,2025-05-21T00:00:00
+r0112,p018,u036,5,Great quality,Material feels premium and the fit is true to size.,2025-06-30T00:00:00
+r0113,p017,u001,5,Beautiful piece,Material feels premium and the fit is true to size.,2025-03-12T00:00:00
+r0114,p003,u010,2,Perfect fit,Material feels premium and the fit is true to size.,2025-02-14T00:00:00
+r0115,p041,u040,3,Just okay,Material feels premium and the fit is true to size.,2025-06-06T00:00:00
+r0116,p037,u036,5,Beautiful piece,Material feels premium and the fit is true to size.,2025-04-23T00:00:00
+r0117,p034,u015,2,Perfect fit,Material feels premium and the fit is true to size.,2025-02-18T00:00:00
+r0118,p033,u011,5,Perfect fit,Material feels premium and the fit is true to size.,2025-05-15T00:00:00
+r0119,p006,u023,5,Great quality,Material feels premium and the fit is true to size.,2025-07-20T00:00:00
+r0120,p022,u022,5,Great quality,Material feels premium and the fit is true to size.,2025-08-12T00:00:00
+r0121,p040,u034,5,Perfect fit,Material feels premium and the fit is true to size.,2025-08-12T00:00:00
+r0122,p042,u001,5,Just okay,Material feels premium and the fit is true to size.,2025-05-26T00:00:00
+r0123,p016,u040,3,Great quality,Material feels premium and the fit is true to size.,2025-02-11T00:00:00
+r0124,p044,u021,5,Loved it,Material feels premium and the fit is true to size.,2025-05-10T00:00:00
+r0125,p017,u035,4,Loved it,Material feels premium and the fit is true to size.,2025-06-13T00:00:00
+r0126,p024,u033,3,Not for me,Material feels premium and the fit is true to size.,2025-06-05T00:00:00
+r0127,p003,u019,3,Great quality,Material feels premium and the fit is true to size.,2025-04-24T00:00:00
+r0128,p033,u006,2,Great quality,Material feels premium and the fit is true to size.,2025-08-17T00:00:00
+r0129,p035,u035,5,Loved it,Material feels premium and the fit is true to size.,2025-03-26T00:00:00
+r0130,p043,u014,3,Not for me,Material feels premium and the fit is true to size.,2025-02-27T00:00:00
+r0131,p014,u035,3,Beautiful piece,Material feels premium and the fit is true to size.,2025-08-18T00:00:00
+r0132,p028,u005,4,Great quality,Material feels premium and the fit is true to size.,2025-02-07T00:00:00
+r0133,p030,u022,5,Loved it,Material feels premium and the fit is true to size.,2025-02-14T00:00:00
+r0134,p012,u017,4,Perfect fit,Material feels premium and the fit is true to size.,2025-03-31T00:00:00
+r0135,p017,u027,5,Beautiful piece,Material feels premium and the fit is true to size.,2025-05-15T00:00:00
+r0136,p028,u021,5,Beautiful piece,Material feels premium and the fit is true to size.,2025-03-03T00:00:00
+r0137,p035,u001,4,Perfect fit,Material feels premium and the fit is true to size.,2025-02-17T00:00:00
+r0138,p038,u003,4,Loved it,Material feels premium and the fit is true to size.,2025-05-03T00:00:00
+r0139,p033,u007,5,Beautiful piece,Material feels premium and the fit is true to size.,2025-04-19T00:00:00
+r0140,p039,u006,5,Not for me,Material feels premium and the fit is true to size.,2025-05-09T00:00:00
+r0141,p026,u002,5,Perfect fit,Material feels premium and the fit is true to size.,2025-03-29T00:00:00
+r0142,p009,u026,4,Perfect fit,Material feels premium and the fit is true to size.,2025-04-17T00:00:00
+r0143,p041,u010,5,Beautiful piece,Material feels premium and the fit is true to size.,2025-07-16T00:00:00
+r0144,p024,u001,4,Perfect fit,Material feels premium and the fit is true to size.,2025-03-09T00:00:00
+r0145,p008,u003,5,Perfect fit,Material feels premium and the fit is true to size.,2025-05-12T00:00:00
+r0146,p035,u036,2,Just okay,Material feels premium and the fit is true to size.,2025-03-26T00:00:00
+r0147,p023,u014,5,Beautiful piece,Material feels premium and the fit is true to size.,2025-06-12T00:00:00
+r0148,p010,u011,5,Perfect fit,Material feels premium and the fit is true to size.,2025-04-06T00:00:00
+r0149,p013,u008,5,Perfect fit,Material feels premium and the fit is true to size.,2025-02-14T00:00:00
+r0150,p036,u030,4,Loved it,Material feels premium and the fit is true to size.,2025-04-16T00:00:00

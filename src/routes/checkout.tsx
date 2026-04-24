@@ -2,8 +2,8 @@ import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Check } from "lucide-react";
-import { supabase } from "@/integrations/supabase/client";
 import { useCart, clearCart } from "@/lib/cart";
+import { placeOrderAtomic } from "@/services/orderService";
 
 export const Route = createFileRoute("/checkout")({
   head: () => ({
@@ -31,6 +31,7 @@ function CheckoutPage() {
   });
   const [submitting, setSubmitting] = useState(false);
   const [done, setDone] = useState<string | null>(null);
+  const [serverTotal, setServerTotal] = useState<number | null>(null);
   const [err, setErr] = useState<string | null>(null);
 
   const onChange = (k: keyof typeof form, v: string) => setForm((f) => ({ ...f, [k]: v }));
@@ -41,33 +42,11 @@ function CheckoutPage() {
     setSubmitting(true);
     setErr(null);
     try {
-      const { data: userData } = await supabase.auth.getUser();
-      const { data: order, error } = await supabase
-        .from("orders")
-        .insert({
-          ...form,
-          total,
-          user_id: userData.user?.id ?? null,
-        })
-        .select()
-        .single();
-      if (error || !order) throw error ?? new Error("Could not create order");
-
-      const { error: itemsErr } = await supabase.from("order_items").insert(
-        items.map((it) => ({
-          order_id: order.id,
-          product_id: it.productId,
-          product_name: it.name,
-          size: it.size,
-          color: it.color,
-          quantity: it.quantity,
-          unit_price: it.price,
-        }))
-      );
-      if (itemsErr) throw itemsErr;
+      const order = await placeOrderAtomic(form, items);
 
       clearCart();
-      setDone(order.id);
+      setDone(order.order_id);
+      setServerTotal(order.total);
       setTimeout(() => navigate({ to: "/" }), 4000);
     } catch (e: unknown) {
       const message = e instanceof Error ? e.message : "Could not place order";
@@ -93,7 +72,8 @@ function CheckoutPage() {
           <h1 className="font-display text-4xl md:text-5xl mb-6">Thank you.</h1>
           <p className="text-sm text-muted-foreground mb-10">
             A confirmation has been sent to {form.email}.<br />
-            Order reference: <span className="tabular-nums">{done.slice(0, 8).toUpperCase()}</span>
+            Order reference: <span className="tabular-nums">{done.slice(0, 8).toUpperCase()}</span><br />
+            Total charged: <span className="tabular-nums">€{Number(serverTotal ?? 0).toFixed(2)}</span>
           </p>
           <Link to="/" className="eyebrow link-underline">
             Continue shopping

@@ -5,6 +5,7 @@ import { Check, Heart, Truck, ShieldCheck, RotateCcw } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import { resolveProductImage, type Product } from "@/lib/products";
 import { addToCart } from "@/lib/cart";
+import { kMeans } from "@/lib/kmeans";
 
 export const Route = createFileRoute("/product/$slug")({
   component: ProductPage,
@@ -23,6 +24,7 @@ function ProductPage() {
   const [color, setColor] = useState<string | null>(null);
   const [added, setAdded] = useState(false);
   const [err, setErr] = useState<string | null>(null);
+  const [clusterItems, setClusterItems] = useState<Product[]>([]);
 
   useEffect(() => {
     let active = true;
@@ -46,6 +48,43 @@ function ProductPage() {
       active = false;
     };
   }, [slug]);
+
+  useEffect(() => {
+    if (!product) return;
+    let active = true;
+
+    supabase
+      .from("products")
+      .select("*")
+      .then(({ data }) => {
+        if (!active || !data) return;
+        const all = data as unknown as Product[];
+        if (all.length < 2) {
+          setClusterItems([]);
+          return;
+        }
+
+        // Numeric embedding for lightweight merchandising analysis.
+        const vectors = all.map((p) => [
+          Number(p.price),
+          Number(p.stock),
+          p.is_featured ? 1 : 0,
+          p.sizes?.length ?? 0,
+          p.colors?.length ?? 0,
+        ]);
+
+        const { assignments } = kMeans(vectors, 3);
+        const currentIndex = all.findIndex((p) => p.id === product.id);
+        if (currentIndex < 0) return;
+        const clusterId = assignments[currentIndex];
+        const peers = all.filter((p, i) => assignments[i] === clusterId && p.id !== product.id).slice(0, 4);
+        setClusterItems(peers);
+      });
+
+    return () => {
+      active = false;
+    };
+  }, [product]);
 
   if (loading) {
     return (
@@ -227,6 +266,25 @@ function ProductPage() {
               <ShieldCheck className="h-4 w-4" strokeWidth={1.25} /> Secure encrypted checkout
             </div>
           </div>
+
+          {clusterItems.length > 0 && (
+            <div className="mt-10 border-t hairline pt-6">
+              <p className="eyebrow mb-4">Similar picks (K-Means)</p>
+              <div className="space-y-3">
+                {clusterItems.map((item) => (
+                  <Link
+                    key={item.id}
+                    to="/product/$slug"
+                    params={{ slug: item.slug }}
+                    className="flex items-center justify-between text-sm border-b hairline pb-3 hover:opacity-75 transition"
+                  >
+                    <span>{item.name}</span>
+                    <span className="tabular-nums">€{Number(item.price).toFixed(2)}</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </article>
