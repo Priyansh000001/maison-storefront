@@ -17,3 +17,11 @@ This project is configured for Render using `render.yaml`.
 - Build command uses `pnpm` via Corepack.
 - Output path is `dist/pages`.
 - SPA rewrite is configured (`/* -> /index.html`) so direct route opens work.
+
+## Auto Deploy From GitHub
+
+1. In Render service settings, copy **Deploy Hook** URL.
+2. In GitHub repo -> **Settings** -> **Secrets and variables** -> **Actions**:
+   - Add secret: `RENDER_DEPLOY_HOOK_URL`
+3. Push to `main` (or run workflow manually):
+   - `.github/workflows/deploy-render.yml`
